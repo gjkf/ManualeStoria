@@ -106,6 +106,10 @@
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 \newcommand{\divisor}{\rule{8.7cm}{0.4pt}}
 
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
 \begin{document}
 {
 \hypersetup{linkcolor=black}
@@ -114,6 +118,7 @@
 \input{secondaRivInd}
 \input{imperialismo}
 \input{socMas}
+\input{giolitti}
 
 \newpage
 \listoftodos[Note]
